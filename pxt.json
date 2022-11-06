@@ -1,5 +1,6 @@
 {
     "name": "우리집 모니터링",
+    "version": "0.0.1",
     "description": "",
     "dependencies": {
         "core": "*",
