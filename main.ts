@@ -1,7 +1,7 @@
 basic.showIcon(IconNames.Heart)
 OLED.init(128, 64)
 ESP8266_IoT.initWIFI(SerialPin.P8, SerialPin.P12, BaudRate.BaudRate115200)
-ESP8266_IoT.connectWifi("SK_WiFiGIGA7C8E_2.4G", "AGQC8@9112")
+ESP8266_IoT.connectWifi("G028_IoT_2.4G", "smart08_028@")
 basic.forever(function () {
     OLED.clear()
     OLED.writeString("Du:  ")
